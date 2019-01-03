@@ -1,0 +1,53 @@
+.footer {
+  width: 100%;
+}
+.footer .introduce {
+  width: 100%;
+  background: #2d2d2d;
+}
+.footer .introduce .character {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: #7b7b7b;
+  border-bottom: 1px solid #303030;
+  padding-bottom: 0.2rem;
+}
+.footer .introduce .character div {
+  width: 50%;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+.footer .introduce .character div span {
+  font-size: 25px;
+  color: #606060;
+  margin-right: 0.1rem;
+}
+.footer .introduce .logobanner {
+  width: 100%;
+  padding-bottom: 0.2rem;
+}
+.footer .introduce .logobanner div {
+  line-height: 0.6rem;
+  text-align: center;
+  font-size: 18px;
+  color: #7b7b7b;
+}
+.footer .introduce .logobanner div:nth-of-type(1) {
+  height: 1rem;
+}
+.footer .introduce .logobanner div:nth-of-type(1) img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  width: 1.5rem;
+  height: 0.6rem;
+}
+.footer .introduce .logobanner div:nth-of-type(3) {
+  font-size: 14px;
+}
+.footer .introduce .logobanner p {
+  text-align: center;
+  line-height: 0.4rem;
+  color: #606060;
+}

@@ -1,0 +1,39 @@
+@fs: 16px;
+@fs-default: 12px;
+@fs-big: 20px;
+@color: #9e9e9e;
+@defaultColor: #fff;
+
+.zIndex(@z-index:10) {
+    z-index: @z-index;
+}
+
+.mb(@margin-bottom: 0.1rem){
+   margin-bottom: @margin-bottom;
+}
+
+.mt(@margin-top: 0.1rem){
+    margin-top: @margin-top;
+ }
+
+ .ml(@margin-left: 0.1rem){
+    margin-left: @margin-left;
+ }
+
+ .mr(@margin-right: 0.1rem){
+    margin-right: @margin-right;
+ }
+
+ .bszing{
+    box-sizing: border-box;
+ }
+
+ .postion (@z-index:10){
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translate3d(-50%,-50%,0);
+    .zIndex(@z-index);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="no-referrer" />
+    <link rel="icon" href="./src/static/img/logo.png" type="image/x-icon"/>
+    <title>【北京办公室|北京写字楼出租/租赁/出售网】-北京好租网</title>
+    <script>
+        (function (doc, win, image_width) {
+
+            var docEl = doc.documentElement, //获取html标签
+                //orientationchange方向改变事件
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                    //当前设备视口宽度
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                docEl.style.fontSize = 100 * (clientWidth / image_width) + 'px';
+            };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+
+        })(document, window, 750);
+    </script>
+</head>
+
+<body>
+    <div id='app'></div>
+</body>
+
+</html>

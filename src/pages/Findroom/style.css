@@ -1,0 +1,187 @@
+.findroom {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  overflow: auto;
+}
+.findroom .banner {
+  width: 100%;
+  height: 3.5rem;
+  position: relative;
+}
+.findroom .banner img {
+  width: 100%;
+  height: 100%;
+}
+.findroom .banner div {
+  position: absolute;
+  bottom: 0;
+  left: 3%;
+  width: 93%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  font-size: 14px;
+}
+.findroom .content {
+  width: 100%;
+  height: 1rem;
+  font-size: 14px;
+}
+.findroom .content .submit {
+  line-height: 1rem;
+  text-align: center;
+}
+.findroom .content .submit span {
+  -moz-box-shadow: inset 0 0 10px #CCC;
+  -webkit-box-shadow: inset 0 0 10px #CCC;
+  box-shadow: inset 0 0 10px #ccc;
+  padding: 0.1rem 0.1rem;
+  margin: 0 0.1rem;
+}
+.findroom .content h5 {
+  width: 100%;
+  text-align: center;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  margin-top: 0.8rem;
+  font-weight: 400;
+  font-size: 18px;
+}
+.findroom .content .seek {
+  width: 65%;
+  margin: 0 auto;
+}
+.findroom .content .seek ul {
+  width: 100%;
+}
+.findroom .content .seek ul li {
+  width: 100%;
+  height: 1rem;
+  border-left: 2px solid #fd6720;
+  position: relative;
+}
+.findroom .content .seek ul li:last-child {
+  border-left: none;
+}
+.findroom .content .seek ul li .position {
+  width: 0.6rem;
+  height: 0.6rem;
+  border: 2px solid #fd6720;
+  border-radius: 50%;
+  position: absolute;
+  top: -0.3rem;
+  left: -0.95rem;
+}
+.findroom .content .seek ul li .position img {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 0.1rem auto;
+}
+.findroom .content .seek ul li div {
+  margin-left: 0.6rem;
+  background: #f9f9f9;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  margin-top: 0.15rem;
+  border-radius: 0.4rem;
+  color: #666666;
+}
+.findroom .content .seek ul li div span {
+  display: inline-block;
+  background: #d9d9d9;
+  color: #fff;
+  width: 0.3rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  border-radius: 50%;
+  margin: 0 0.15rem;
+  margin-top: 0.1rem;
+  text-align: center;
+}
+.findroom .content .from {
+  width: 100%;
+}
+.findroom .content .from input {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #ccc;
+  height: 0.6rem;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+.findroom .content .from button {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  margin-top: 0.3rem;
+  background: #fd6720;
+  color: #fff;
+  border-radius: 0.1rem;
+}
+.findroom .content .choose {
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+.findroom .content .choose .whychiise {
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 18px;
+}
+.findroom .content .choose .text {
+  width: 90%;
+  margin: 0 auto;
+  line-height: 0.4rem;
+  text-indent: 0.7rem;
+  text-align: left;
+  color: #666;
+}
+.findfooter {
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+}
+.findfooter div:nth-child(1) {
+  flex: 4;
+}
+.findfooter div:nth-child(1) button {
+  display: block;
+  width: 90%;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0.15rem;
+  color: #fff;
+  background: #000;
+  font-size: 16px;
+}
+.findfooter div:nth-child(2) {
+  flex: 6;
+}
+.findfooter div:nth-child(2) button {
+  display: block;
+  width: 90%;
+  height: 0.7rem;
+  text-align: center;
+  line-height: 0.7rem;
+  margin: 0 auto;
+  margin-top: 0.15rem;
+  color: #fff;
+  background: #fd6720;
+  font-size: 16px;
+}

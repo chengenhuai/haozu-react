@@ -1,0 +1,42 @@
+#communal {
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+}
+
+#communal .position {
+  position: fixed;
+}
+
+#communal .position-top {
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#communal .position-center {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translate3d(0, 50%, 0);
+          transform: translate3d(0, 50%, 0);
+}
+
+#communal .position-bottom {
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+  height: 1rem;
+  line-height: 1rem;
+  background: skyblue;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,220 @@
+.hottopic {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  overflow: auto;
+}
+.hottopic .header {
+  width: 100%;
+  height: 5rem;
+  position: relative;
+}
+.hottopic .header .banner {
+  width: 100%;
+}
+.hottopic .header .banner .list {
+  width: 100%;
+}
+.hottopic .header .banner .list .li {
+  width: 100%;
+  height: 100%;
+}
+.hottopic .header .banner .list .li img {
+  width: 100%;
+  height: 100%;
+}
+.hottopic .header .feature {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hottopic .header .feature div {
+  display: inline-block;
+}
+.hottopic .header .feature div:nth-of-type(1) {
+  flex: 1;
+  background-image: url(../../static/img/left.png);
+  background-repeat: no-repeat;
+  background-size: 0.5rem 0.5rem;
+  background-position: center center;
+}
+.hottopic .header .feature div:nth-of-type(2) {
+  flex: 8;
+}
+.hottopic .header .feature div:nth-of-type(3) {
+  flex: 1;
+  background-image: url(../../static/img/message.png);
+  background-repeat: no-repeat;
+  background-size: 0.5rem 0.5rem;
+  background-position: center center;
+}
+.hottopic .header .title {
+  width: 4rem;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  z-index: 10;
+  padding-bottom: 0.1rem;
+  color: #fff;
+}
+.hottopic .header .title p {
+  margin-left: 0.2rem;
+}
+.hottopic .header .title p:nth-of-type(1) {
+  height: 0.6rem;
+  line-height: 0.8rem;
+  font-size: 20px;
+}
+.hottopic .header .title p:nth-of-type(2) {
+  height: 0.6rem;
+  line-height: 0.6rem;
+}
+.hottopic .header .pagition {
+  width: 0.8rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  position: absolute;
+  left: 0;
+  bottom: 0.3rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #000;
+  z-index: 10;
+  text-align: center;
+  color: #fff;
+}
+.hottopic .article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 0.2rem;
+}
+.hottopic .article dl {
+  width: 33.33%;
+}
+.hottopic .article dl dt {
+  width: 2.2rem;
+  height: 2rem;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.4rem;
+}
+.hottopic .article dl dt img {
+  width: 100%;
+  height: 100%;
+}
+.hottopic .article dl dd {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.hottopic .article dl dd p {
+  line-height: 0.35rem;
+}
+.hottopic .article dl dd p:nth-of-type(1) {
+  color: #9e9e9e;
+}
+.hottopic .article dl dd p:nth-of-type(2) {
+  color: #ccc;
+}
+.hottopic .block {
+  width: 100%;
+  height: 0.2rem;
+  background: #f5f6fb;
+}
+.hottopic .guess {
+  width: 100%;
+}
+.hottopic .guess .text {
+  width: 90%;
+  margin: 0 auto;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  position: relative;
+}
+.hottopic .guess .text span {
+  background: #fff;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  padding: 0 0.2rem;
+}
+.hottopic .guess .text .hr {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.hottopic .guess .point {
+  width: 100%;
+}
+.hottopic .guess .point .cut {
+  line-height: 0.6rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hottopic .guess .point .cut div {
+  flex: 1;
+  text-align: center;
+}
+.hottopic .guess .point .cut div span.active {
+  padding: 0.1rem;
+  border-bottom: 2px solid orange;
+}
+.hottopic .guess .point .content {
+  width: 100%;
+}
+.hottopic .guess .point .content dl {
+  width: 94%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 0.4rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #ccc;
+}
+.hottopic .guess .point .content dl dt {
+  width: 2.2rem;
+  height: 1.8rem;
+}
+.hottopic .guess .point .content dl dt img {
+  width: 100%;
+  height: 100%;
+}
+.hottopic .guess .point .content dl dd {
+  flex: 1;
+  margin-left: 0.2rem;
+  position: relative;
+}
+.hottopic .guess .point .content dl dd div {
+  position: absolute;
+  right: 0.2rem;
+  top: 40%;
+}
+.hottopic .guess .point .content dl dd div span {
+  color: orange;
+}
+.hottopic .guess .point .content dl dd p:nth-of-type(1) {
+  font-weight: 600;
+}
+.hottopic .guess .point .content dl dd p:nth-of-type(2),
+.hottopic .guess .point .content dl dd p:nth-of-type(3),
+.hottopic .guess .point .content dl dd p:nth-of-type(4) {
+  color: #9e9e9e;
+  line-height: 0.4rem;
+}
+.hottopic .guess .point .content dl dd p span {
+  display: inline-block;
+  line-height: 0.4rem;
+  background: #f7f0ee;
+  color: #cca99e;
+  margin-right: 0.2rem;
+}
